@@ -12,4 +12,4 @@ SET(SRC_LIST lockfree/main.cpp)
 
 INCLUDE_DIRECTORIES(lockfree)
 
-ADD_EXECUTABLE(Nasu ${SRC_LIST})
+ADD_EXECUTABLE(Nasu ${SRC_LIST} "lockfree/БъЭЗ1.hpp")
